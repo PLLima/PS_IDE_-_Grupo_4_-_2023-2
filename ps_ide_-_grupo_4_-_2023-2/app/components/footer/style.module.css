@@ -2,21 +2,21 @@
 
 .container{
     width: 100%;
-    height: 91px;
+    height: 300px;
     line-height: 30px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    background-color:#1B1A1AA6;
+    justify-content: center;
+    flex-direction: column;
+    background-color:#414141;
 }
 
 .container span {
     font-family: 'Press Start 2P';
-    transition: 250ms all ease-in-out;
-    font-weight: 400;
+    font-weight: 100;
+    font-size: x-small;
 }
 
 .container span:hover{
-    transform: scale(1.1);
-    cursor: pointer;
+    cursor: default;
 }
