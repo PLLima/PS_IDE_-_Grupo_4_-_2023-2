@@ -7,13 +7,15 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color:#1B1A1AA6;
+    position: fixed;
+    background-color:rgba(27, 26, 26, 0.65);
 }
 
 .container span {
     font-family: 'Press Start 2P';
     transition: 250ms all ease-in-out;
     font-weight: 400;
+    font-size: x-large;
 }
 
 .container span:hover{
