@@ -22,6 +22,9 @@
 }
 
 body {
+  position: relative;
+  padding-bottom: 23vw;
+  min-height: 100vh;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
