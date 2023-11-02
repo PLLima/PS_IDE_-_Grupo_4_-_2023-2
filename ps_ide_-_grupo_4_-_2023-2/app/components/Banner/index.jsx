@@ -1,11 +1,17 @@
 import styles from './banner.module.css'
+import Image from 'next/image'
 
-export default function Banner()
-{
+export default function Banner(){
     return(
         <>
             <div className={styles.container}>
-                <h2>Teste 1</h2>
+                <Image
+                    className={styles.bannerImage}
+                    src="/images/neko-anotando.png"
+                    height={500}
+                    width={500}
+                    alt=""
+                />
                 <h3>Teste 2</h3>
             </div>
         </>

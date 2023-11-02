@@ -11,7 +11,7 @@ export default function Footer(){
                             src="/images/pokemon-logo.png"
                             height={56}
                             width={56}
-                            alt="Logo Pokémon"
+                            alt=""
                         />
                     </a>
                     <a href="https://www.instagram.com/ide_jr/">
@@ -19,7 +19,7 @@ export default function Footer(){
                             src="/images/instagram-logo.png"
                             height={56}
                             width={56}
-                            alt="Logo Instagram"
+                            alt=""
                         />
                     </a>
                     <a href="https://www.linkedin.com/company/empresa-j%C3%BAnior-ide/?originalSubdomain=br">
@@ -27,7 +27,7 @@ export default function Footer(){
                             src="/images/linkedin-logo.png"
                             height={56}
                             width={56}
-                            alt="Logo LinkedIn"
+                            alt=""
                         />
                     </a>
                     <a href="https://www.idejr.com.br/">
@@ -35,7 +35,7 @@ export default function Footer(){
                             src="/images/logo-pixelado-branco.png"
                             height={56}
                             width={100}
-                            alt="Logo IDE Branco"
+                            alt=""
                         />
                     </a>
                 </imagens>
@@ -45,7 +45,7 @@ export default function Footer(){
                         src="/images/logo-pixelado-branco.png"
                         height={80}
                         width={150}
-                        alt="Logo IDE Branco"
+                        alt=""
                     />
                 </ide>
             </div>
