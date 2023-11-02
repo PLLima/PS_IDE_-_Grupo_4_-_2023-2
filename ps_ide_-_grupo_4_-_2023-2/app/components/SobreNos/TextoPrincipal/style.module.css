@@ -18,4 +18,6 @@
     color: #FFFFFF;
 }
 
-
+.container span{
+    align-items: center;
+}

@@ -6,6 +6,9 @@ export default function TextoPrincipal(props)
         <div className={styles.container}>
             <p> paragrafo </p>
         </div>
+        <span>
+            <img src='/imagens/logo-pixelado-branco.png'/>
+        </span>
         </>
     )
 }
