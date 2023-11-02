@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-
 .container{
     width: 100%;
     height: 500px;
@@ -9,7 +7,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
 
 .container span{
@@ -18,7 +15,7 @@
     height: 81px;
     line-height: 30px;
     font-weight: 50;
-    font-family: 'Press Start 2P';
+    font-family: "PokeIDEx Font";
     font-size: medium;
     text-align: center;
 }
