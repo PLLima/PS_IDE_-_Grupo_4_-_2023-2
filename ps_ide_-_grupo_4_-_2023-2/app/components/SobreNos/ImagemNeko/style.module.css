@@ -1,0 +1,6 @@
+.container{
+    width: 916px;
+    height: 851px;
+    object-fit: contain;
+    display: flex;
+}

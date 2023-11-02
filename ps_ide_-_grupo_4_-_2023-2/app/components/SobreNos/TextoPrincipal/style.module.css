@@ -1,21 +1,46 @@
+ @import url('https://fonts.cdnfonts.com/css/uni-0553');
 
+                
 .container{
-    width: 809px;
-    height: 533px;
-    top: 413px;
-    left: 132px;
-    display: flex;
+    width: 916px;
+    height: 851px;
+    top: 331px;
+    left: 73px;
     background-color: #242424;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .container p{
-    padding-left: 2%;
+    
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10%;
     font-size: 36px;
     line-height: 40.5px;
     font-weight: 400;
-    text-justify: auto;
+    text-align: justify;
     font-family: "uni 05_53";
     color: #FFFFFF;
-}
+}   
 
+.border {
+    width: 929px; 
+    height: 851px; 
+    background-color: red; /* Cor de fundo da borda */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 13px solid red; /* Estilo da borda ao redor da borda */
+    box-sizing: border-box; /* Mantém o tamanho total, incluindo a borda */
+  }
+ 
+.logo{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
 
