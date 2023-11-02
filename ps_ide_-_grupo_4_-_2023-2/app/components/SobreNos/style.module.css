@@ -1,5 +1,5 @@
 .container{
-    background-color: darkorchid;
+    background-color:#603B88;
     padding-top: 5%;
     padding-left: 2%;
     width: 1920px;
@@ -9,8 +9,10 @@
 }
 .title{
     display:flex;
+    padding-bottom: 5%;
 }
 .textoImagem
 {
     display: flex;
+    justify-content: space-between;
 }

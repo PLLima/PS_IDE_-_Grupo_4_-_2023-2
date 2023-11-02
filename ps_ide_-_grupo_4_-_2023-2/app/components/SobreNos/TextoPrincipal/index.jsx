@@ -15,7 +15,9 @@ export default function TextoPrincipal(props)
                 o Instituto de Informática e seus professores, que fornecem apoio técnico <br></br>
                 e aconselhamento aos estudantes.<br></br>
                  </p>
-                <img src='/imagens/logo-pixelado-branco.png' alt="Logo" className={styles.logo}/>
+                <div className={styles.logo}>
+                <img src='/images/logo-pixelado-branco.png' alt="Logo" className={styles.logo}/>
+                </div>
              </div>
         </div>
         

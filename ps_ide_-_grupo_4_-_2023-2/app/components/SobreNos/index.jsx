@@ -6,11 +6,11 @@ export default function SobreNos(){
     return(  
             <div className={styles.container}>
                 <div className={styles.title}>
-                <Titulo/>
+                    <Titulo/>
                 </div>
                 <div className={styles.textoImagem}>
-                <TextoPrincipal/>
-                <ImagemNeko/>
+                    <TextoPrincipal/>
+                    <ImagemNeko/>
                 </div>
             </div>
     )
