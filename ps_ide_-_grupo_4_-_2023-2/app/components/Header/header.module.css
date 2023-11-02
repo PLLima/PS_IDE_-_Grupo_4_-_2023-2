@@ -6,7 +6,8 @@
     align-items: center;
     justify-content: space-evenly;
     position: fixed;
-    background-color:rgba(27, 26, 26, 0.65);
+    background-color: #332641;
+    oppacity: 0.65;
 }
 
 .container span{

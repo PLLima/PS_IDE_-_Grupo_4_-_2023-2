@@ -1,4 +1,4 @@
-import styles from './style.module.css'
+import styles from './header.module.css'
 
 export default function Header(props){
     return(
