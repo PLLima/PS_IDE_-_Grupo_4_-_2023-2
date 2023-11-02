@@ -2,4 +2,15 @@
     background-color: darkorchid;
     padding-top: 5%;
     padding-left: 2%;
+    width: 1920px;
+    height: 1300px;
+    top: -10px;
+    left: 14212px;
+}
+.title{
+    display:flex;
+}
+.textoImagem
+{
+    display: flex;
 }
