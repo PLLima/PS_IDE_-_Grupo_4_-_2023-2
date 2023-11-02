@@ -6,7 +6,7 @@ export default function Header(props){
             <span>HOME</span>
             <span>INICIAIS</span>
             <span>SOBRE</span>
-            <span>FORMULÁRIO</span>
+            <span>FORMULARIO</span>
         </div>
         </>
     )
