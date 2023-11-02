@@ -13,7 +13,7 @@
 .container span{
     font-family: "PokeIDEx Font";
     transition: 250ms all ease-in-out;
-    font-size: 100%;
+    font-size: 1.75vw;
 }
 
 .container span:hover{
