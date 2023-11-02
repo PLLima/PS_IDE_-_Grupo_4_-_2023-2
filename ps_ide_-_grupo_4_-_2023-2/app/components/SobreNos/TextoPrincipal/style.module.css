@@ -5,15 +5,19 @@
     top: 413px;
     left: 132px;
     display: flex;
-    color: #242424;
+    background-color: #242424;
 }
 
-.container p
-{
+.container p{
+    padding-left: 2%;
     font-size: 36px;
     line-height: 40.5px;
     font-weight: 400;
     text-justify: auto;
     font-family: "uni 05_53";
     color: #FFFFFF;
+}
+
+.container {
+
 }

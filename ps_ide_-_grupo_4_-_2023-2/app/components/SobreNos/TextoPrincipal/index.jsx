@@ -5,7 +5,7 @@ export default function TextoPrincipal(props)
         <>
         <div className={styles.container}>
             <p> paragrafo </p>
-            </div>
+        </div>
         </>
     )
 }
