@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+.container{
+    width: 630px;
+    height: 70px;
+    top: 201px;
+    left: 73px;
+    display: flex;
+    align-items: center;
+}
+.container span
+{
+    font-family: "Press Start 2P";
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 70px;
+}
