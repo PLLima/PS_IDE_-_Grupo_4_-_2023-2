@@ -1,0 +1,21 @@
+
+.container{
+    width: 809px;
+    height: 533px;
+    top: 413px;
+    left: 132px;
+    display: flex;
+    background-color: #242424;
+}
+
+.container p{
+    padding-left: 2%;
+    font-size: 36px;
+    line-height: 40.5px;
+    font-weight: 400;
+    text-justify: auto;
+    font-family: "uni 05_53";
+    color: #FFFFFF;
+}
+
+
