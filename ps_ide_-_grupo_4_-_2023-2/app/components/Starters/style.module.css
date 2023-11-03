@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.wrapper {
+    display: flex;
+    flex-direction: column; /* padrão é row, mas pode ser omitido */
+    align-items: left; /* alinha verticalmente */
+    margin-left: 40px;
+}
+
+.title {
+    font-size: 50px;
+    color: rgb(67, 119, 161);
+    font-family: "Press Start 2P";
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: left;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 20px; 
+    column-gap: 0px;
+}
+
+.grid img {
+    width: 70%;
+    height: 50px;
+    display: block; 
+    border: solid 2px rgb(67, 119, 161);
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 0px
+}
+
+.logos {
+    margin-top: 50px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
