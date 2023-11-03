@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <Header/>
       <SobreNos/>
-      <Forms><Forms/>
+      <Forms/>
       <Footer/>
     </>
   )
