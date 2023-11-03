@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: "PokeIDEx Font";
-  src: url('../public/fonts/uni05_53.ttf');
-}
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -32,5 +28,4 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-  font-family: "PokeIDEx Font";
 }

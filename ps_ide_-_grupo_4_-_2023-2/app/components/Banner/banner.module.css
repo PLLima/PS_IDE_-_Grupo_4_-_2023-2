@@ -5,11 +5,15 @@
     display: flex;
     align-items: center;
     align-content: center;
-    justify-content: center;
-    padding: 7vw 7vw 7vw;
+    justify-content: space-between;
+    padding: 7vw 28vw 7vw 28vw;
 }
 
 .bannerImage{
     height: 26vw;
     width: 22.75vw;
+}
+
+.bannerTitleButton{
+
 }

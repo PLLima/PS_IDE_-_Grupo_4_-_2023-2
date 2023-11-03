@@ -1,4 +1,6 @@
 import styles from './banner.module.css'
+import BannerTitle from './BannerTitle'
+import BannerButton from './BannerButton'
 import Image from 'next/image'
 
 export default function Banner(){
@@ -8,11 +10,14 @@ export default function Banner(){
                 <Image
                     className={styles.bannerImage}
                     src="/images/neko-anotando.png"
-                    height={500}
+                    height={571}
                     width={500}
                     alt=""
                 />
-                <h3>Teste 2</h3>
+                <div className={styles.bannerTitleButton}>
+                    <BannerTitle/>
+                    <BannerButton text="START"/>
+                </div>
             </div>
         </>
     )
