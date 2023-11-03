@@ -1,0 +1,17 @@
+.container{
+    background-color:#603B88;
+    padding-top: 6.5%;
+    padding-left: 2%;
+    width: 100%;
+    height: 100%;
+ 
+}
+.title{
+    display:flex;
+    padding-bottom: 4%;
+}
+.textoImagem
+{
+    display: flex;
+    justify-content: space-between;
+}
