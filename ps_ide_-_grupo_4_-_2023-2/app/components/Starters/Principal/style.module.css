@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.container{
+    width: 100%;
+    height: 700px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    flex-direction: column;
+    font-family: 'Press Start 2P';
+    
+}
+
+.container span{
+    width: 90%;
+    height: 50%;
+    border-radius: 20px;
+    border-width: 4px;
+    border-color: blueviolet;
+    background-color: white;
+}
+
+.container texto{
+    width: 729px;
+    height: 200px;
+    color: blueviolet;
+    font-size: small;
+    text-align: center;
+    justify-content: right;
+    display: flex;
+    margin-left: 40%;
+    margin-bottom: 70%;
+    float: right;
+    background-color: aqua;
+}
+
+.container titulo{
+    font-weight: 400;
+    font-size: xxx-large;
+    color: rgb(160, 72, 243);
+    display: flex;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.container subtitulo{
+    width: 100%;
+    font-size: large;
+    display: flex;
+    color: rgb(160, 72, 243);
+    padding-left: 150px;
+    padding-top: 20px;
+}
+
+.container neko{
+    width: 30%;
+    height: 288px;
+    display: flex;
+    padding-left: 70px;
+    padding-top: 30px;
+    float: left;
+    background-color: aqua;
+}
+
+.container aspascima{
+    width: 100%;
+    height: 59px;
+    display: flex;
+    padding-left: 600px;
+    padding-bottom: 200px;
+    float: right;
+}
+
+.container aspasbaixo{
+    width: 100%;
+    height: 59px;
+    display: flex;
+}
