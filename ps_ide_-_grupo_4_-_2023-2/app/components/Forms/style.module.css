@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    height: 600px;
+    gap: 10px;
+}
+
+.container input
+{
+    width: 80%;
+    height: 50px;
+    font-family: 'Press Start 2P';
+    padding-left: 10px;
+    font-size: 12px;
+    border: 1px solid purple;
+    caret-color: purple;
+    color: purple;
+}
+
+.container input::placeholder {
+    color: purple;
+}
+
+.container input:focus {
+    outline: none;
+}
+
+.container input:focus::placeholder {
+    color: lightgray;
+}
+
+.container input:hover {
+    background-color: rgb(255, 188, 255);
+    border: 2px solid purple;
+    cursor: pointer;
+}
+
+.container h1
+{
+    font-family: 'Press Start 2P';
+    font-size: 22px;
+    color: purple;
+    padding-bottom: 25px;
+    justify-content: center;
+}
+
+.container button
+{
+    width: 35%;
+    border: 1px solid purple;
+    font-family: 'Press Start 2P';
+    font-size: 17px;
+    margin-top: 8px;
+    height: 50px;
+    color: purple;
+}
+
+.container button:hover
+{
+    background-color: rgb(255, 188, 255);
+    border: 2px solid purple;
+    cursor: pointer;
+}
