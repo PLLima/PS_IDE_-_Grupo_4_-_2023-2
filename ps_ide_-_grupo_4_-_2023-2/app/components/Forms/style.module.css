@@ -64,4 +64,5 @@
 {
     background-color: rgb(255, 188, 255);
     border: 2px solid purple;
+    cursor: pointer;
 }
