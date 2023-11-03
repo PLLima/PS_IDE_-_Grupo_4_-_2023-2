@@ -1,9 +1,9 @@
- @import url('https://fonts.cdnfonts.com/css/uni-0553');
+ @import url('https://fonts.cdnfonts.com/s/57360/uni05_53.woff');
 
                 
 .container{
-    width: 916px;
-    height: 851px;
+    width: 45vw;
+    height: 45vw;
     top: 331px;
     left: 73px;
     background-color: #242424;
@@ -18,8 +18,8 @@
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 10%;
-    font-size: 36px;
-    line-height: 40.5px;
+    font-size: 2.2vw;
+    line-height: 2.5vw;
     font-weight: 400;
     text-align: justify;
     font-family: "uni 05_53";
@@ -27,14 +27,14 @@
 }   
 
 .border {
-    width: 929px; 
-    height: 851px; 
+    width: 45vw; 
+    height: 45vw; 
     background-color: red; /* Cor de fundo da borda */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-left: 13px solid red; /* Estilo da borda ao redor da borda */
+    border-left: 1vw solid red; /* Estilo da borda ao redor da borda */
     box-sizing: border-box; /* Mantém o tamanho total, incluindo a borda */
   }
  

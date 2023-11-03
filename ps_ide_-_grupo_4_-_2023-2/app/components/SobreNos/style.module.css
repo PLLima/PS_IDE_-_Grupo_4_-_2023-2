@@ -1,15 +1,14 @@
 .container{
     background-color:#603B88;
-    padding-top: 5%;
+    padding-top: 6.5%;
     padding-left: 2%;
-    width: 1920px;
-    height: 1300px;
-    top: -10px;
-    left: 14212px;
+    width: 100%;
+    height: 100%;
+ 
 }
 .title{
     display:flex;
-    padding-bottom: 5%;
+    padding-bottom: 4%;
 }
 .textoImagem
 {
