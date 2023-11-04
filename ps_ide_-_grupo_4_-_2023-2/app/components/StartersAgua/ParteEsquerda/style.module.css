@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.title {
+    font-family: "Press Start 2P";
+    color: black;
+    font-weight: 400;
+    font-size: 4vw;
+    line-height: 70px;
+    padding-bottom: 5%;
+}
+
 .container{
     display: flex ;
     width: 35vw;
@@ -17,11 +28,23 @@
     width: 6vw;
     height: 6vw;
     display: block; 
-    border: solid 2px rgb(67, 119, 161);
+    border: solid 2px #3B6388;
     box-sizing: border-box;
     border-radius: 8px;
     padding: 5px;
     margin: 0px;
+}
+
+.bordaAgua .grid img {
+    border-color: #3B6388;
+}
+
+.bordaPlanta .grid img {
+    border-color: #3B8863;
+}
+
+.bordaFogo .grid img {
+    border-color: #AD3F3F;
 }
 
 .logos button{
@@ -35,4 +58,3 @@
 .logos button:hover {
     transform: scale(1.1);
 }
-
