@@ -21,8 +21,8 @@ export default function TextoPrincipal(props)
                 <Image
                     className={styles.logo}
                     src='/images/logo-pixelado-branco.png'
-                    height={300}
-                    width={550}
+                    height={60}
+                    width={100}
                     alt=""
                 />
                 </div>
