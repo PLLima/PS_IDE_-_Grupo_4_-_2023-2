@@ -1,97 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-
-.wrapper {
-    width: 35vw;
-    height: 40vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-
-}
-.wrapper2{
-    width: 35vw;
-    height: 40vw;
-    display: flex;
-    flex-direction: column;
-    padding-left: 2.5%;
-}
-
-.textoTipo{
-    font-size: 2.2vw;
-    line-height: 2.2vw;
-    font-weight: 400;
-    text-align: center;
-    font-family: "uni 05_53";
-    color: #FFFFFF;
-}
-.title {
-    font-size: 50px;
-    color: rgb(67, 119, 161);
-    font-family: "Press Start 2P";
-    display: flex;
-    padding-top:2%;
-    padding-left:2%;
-    padding-bottom: 3%;
+.container{
     background-color: #FFFFFF;
-}
-
-.container {
-
-    display: flex;
-    justify-content: space-evenly; 
     width: 100%;
     height: 100%;
-    background-color: #FFFFFF;
-
+    padding-top: 6.5%;
+    padding-left: 2%;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    row-gap: 1vw; 
-
+.title{
+    display:flex;
+    padding-bottom: 4%;
 }
 
-.grid img {
-    width: 6vw;
-    height: 6vw;
-    display: block; 
-    border: solid 2px rgb(67, 119, 161);
-    box-sizing: border-box;
-    border-radius: 8px;
-    padding: 5px;
-    margin: 0px;
-}
-
-.logos button{
-    margin: 0;
-    margin-left: 2.8vw; 
-    margin-top: 4vw;
-    width: 7vw;
-    height: 2.5vw;
-}
-
-.logos button:hover {
-    transform: scale(1.1);
-}
-
-.textAtributos{
-    font-size: 2.2vw;
-    line-height: 2.2vw;
-    font-weight: 400;
-    text-align: center;
-    font-family: "uni 05_53";
-    color: #FFFFFF;
-}
-
-.atributos{
+.textoImagem
+{
     display: flex;
-    justify-content: space-between;
-    padding-right: 40%;
-}
-
-.fracoSE{
-    display: flex;
-    flex-direction: row;
+    justify-content: space-evenly;
 }

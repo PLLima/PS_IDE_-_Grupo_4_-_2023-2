@@ -1,0 +1,35 @@
+.container{
+    display: flex ;
+    width: 35vw;
+    height: 35vw;
+    flex-direction: column;
+}
+
+.textAtributos{
+    font-size: 2.2vw;
+    line-height: 2.2vw;
+    font-weight: 400;
+    text-align: center;
+    font-family: "uni 05_53";
+    color: #FFFFFF;
+}
+
+.atributos{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40%;
+}
+
+.fracoSE{
+    display: flex;
+    flex-direction: row;
+}
+
+.textoTipo{
+    font-size: 2.2vw;
+    line-height: 2.2vw;
+    font-weight: 400;
+    text-align: center;
+    font-family: "uni 05_53";
+    color: #FFFFFF;
+}
