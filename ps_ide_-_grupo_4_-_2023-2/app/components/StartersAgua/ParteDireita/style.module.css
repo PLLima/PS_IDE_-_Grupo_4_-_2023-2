@@ -1,36 +1,55 @@
 .container{
-    display: flex ;
+    display: flex;
     width: 35vw;
     height: 35vw;
     flex-direction: column;
     padding-left: 4%;
 }
 
-.textAtributos{
-    font-size: 2.2vw;
-    line-height: 2.2vw;
+.container span{
+    display: flex;
+    justify-content: left;
+    color: black;
+    font-size: 1.2vw;
+    line-height: 1.2vw;
     font-weight: 400;
-    text-align: center;
+    text-align: left;
     font-family: "uni 05_53";
-    color: #FFFFFF;
+    
 }
 
-.atributos{
+.atributos {
     display: flex;
     justify-content: space-between;
-    padding-right: 40%;
-}
+  }
+  
+  .atributosEsquerda {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .atributosDireita {
+    display: flex;
+    justify-content: flex-end;
+  }
 
 .fracoSE{
     display: flex;
-    flex-direction: row;
 }
 
 .textoTipo{
     font-size: 2.2vw;
     line-height: 2.2vw;
     font-weight: 400;
-    text-align: center;
+    text-align: left;
     font-family: "uni 05_53";
     color: #FFFFFF;
+}
+
+.neko{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    align-items: center;
+    padding-left: 20%;
 }
