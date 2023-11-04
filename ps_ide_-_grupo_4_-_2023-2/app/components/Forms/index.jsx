@@ -35,7 +35,7 @@ export default function Forms(props){
 
     return(
         <>
-        <div className={styles.container}>
+        <div id="Forms" className={styles.container}>
             <h1>Envie uma mensagem para nós:</h1>
 
             <input placeholder={'Pokemon Favorito'}

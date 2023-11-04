@@ -1,5 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  purge: ['./pages/**/*.tsx', './components/**/*.tsx'],
+  darkMode: false,
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -15,4 +17,7 @@ module.exports = {
     },
   },
   plugins: [],
+  variants: {
+    extend: {}
+  }
 }
