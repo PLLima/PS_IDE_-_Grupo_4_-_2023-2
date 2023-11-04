@@ -3,6 +3,7 @@
     width: 35vw;
     height: 35vw;
     flex-direction: column;
+    padding-left: 4%;
 }
 
 .textAtributos{

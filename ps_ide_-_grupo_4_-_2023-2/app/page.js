@@ -5,6 +5,8 @@ import Forms from './components/Forms'
 import Footer from './components/Footer'
 import StartersAgua from './components/StartersAgua'
 import StarterMain from "./components/StartersMain"
+import StartersFogo from "./components/StartersFogo"
+import StartersPlanta from "./components/StartersPlanta"
 
 export default function Home(){
   return(
