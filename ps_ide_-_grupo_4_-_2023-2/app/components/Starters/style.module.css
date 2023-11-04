@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.container{
+    width: 100%;
+    height: 100%;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    flex-direction: column;
+    font-family: 'Press Start 2P';
+    position: relative; 
+}
+
+.container span{
+    width: 90%;
+    height: 50%;
+    border-radius: 20px;
+    border-width: 4px;
+    border-color: #603B88;
+}
+
+.container texto{
+    width: 45%;
+    height: 100%;
+    color: #603B88;
+    font-size: small;
+    text-align: center;
+    justify-content: right;
+    display: flex;
+    margin-left: 48%;
+}
+
+.container titulo{
+    font-weight: 400;
+    font-size: xxx-large;
+    color: #603B88;
+    display: flex;
+    text-align: center;
+    padding-bottom: 5%;
+    margin-top: 10%;
+}
+
+.container subtitulo{
+    width: 40%;
+    height: 100%;
+    font-size: x-large;
+    display: flex;
+    color: #603B88;
+    padding-left: 10%;
+}
+
+.container neko{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    padding-left: 6.5%;
+    padding-top: 5%;
+    float: left;
+}
+
+.container aspascima{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    margin-left: 43%;
+    padding-top: 2%;
+}
+
+.container aspasbaixo{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    margin-left: 92%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.container linha{
+    height: 53%;
+    display: flex;
+    margin-left: 41%;
+    margin-top: 17.2%;
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 4px; 
+    background-color: #603B88; 
+}
+
+.container tipos{
+    width: 35.5%;
+    height: 30%;
+    font-size: large;
+    display: flex;
+    color: #603B88;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-right: 53%;
+}
+
+.container tipos > * {
+    flex: 1;
+    text-align: center;
+}
+
+.container imagens{
+    width: 31%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-right: 53%;
+    transition: 250ms all ease-in-out;
+}
+
+.container imagens:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.container ide{
+    width: 40%;
+    height: 100%;
+    border-radius: 20px;
+    border-width: 4px;
+    border-color: #603B88;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-left: 50%;
+    transition: 250ms all ease-in-out;
+}
+
+.container ide img {
+    max-width: 100%; 
+    max-height: 100%; 
+}
+
+.container ide:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
