@@ -4,7 +4,7 @@ export default function ParteDireita(props)
 {
     return(
         <>
-            <div className={styles.container}>
+            <div className={styles.container_dir}>
                 <div className={styles.neko}>
                     <Image src='/images/neko-piscando.png' width={300} height={175}/>
                 </div>
