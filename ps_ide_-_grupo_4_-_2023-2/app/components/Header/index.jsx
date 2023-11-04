@@ -1,13 +1,14 @@
-import styles from './style.module.css'
-export default function Header(props){
+import styles from './header.module.css'
+
+export default function Header(){
     return(
         <>
-        <div className={styles.container}>
-            <span>HOME</span>
-            <span>INICIAIS</span>
-            <span>SOBRE</span>
-            <span>FORMULÁRIO</span>
-        </div>
+            <header className={styles.container}>
+                <span>HOME</span>
+                <span>INICIAIS</span>
+                <span>SOBRE</span>
+                <span>FORMULARIO</span>
+            </header>
         </>
     )
 }
