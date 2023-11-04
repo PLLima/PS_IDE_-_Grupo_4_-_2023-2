@@ -116,16 +116,19 @@
     justify-content: space-between;
     margin-top: 2%;
     margin-right: 53%;
+}
+
+.container imagens img{
     transition: 250ms all ease-in-out;
 }
 
-.container imagens:hover{
+.container imagens img:hover {
     transform: scale(1.1);
     cursor: pointer;
 }
 
 .container ide{
-    width: 40%;
+    width: 48%;
     height: 100%;
     border-radius: 20px;
     border-width: 4px;
@@ -133,16 +136,18 @@
     display: flex;
     justify-content: center; 
     align-items: center; 
-    margin-left: 50%;
+    margin-left: 41%;
     transition: 250ms all ease-in-out;
 }
 
 .container ide img {
     max-width: 100%; 
     max-height: 100%; 
+    border-width: 1vw;
+    border-color: white;
 }
 
 .container ide:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
     cursor: pointer;
 }
