@@ -1,4 +1,5 @@
 .bannerButton{
+    height: 2.25vw;
     font-family: var(--font-title);
     font-size: 1.5vw;
     text-shadow: 0.15vw 0.15vw black;
@@ -12,4 +13,9 @@
 .bannerButton:hover{
     transform: scale(1.05);
     cursor: pointer;
+}
+
+.bannerButtonText{
+    position: relative;
+    top: -145%;
 }
