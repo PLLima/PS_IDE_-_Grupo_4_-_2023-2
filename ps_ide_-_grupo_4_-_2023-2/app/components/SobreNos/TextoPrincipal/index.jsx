@@ -1,4 +1,6 @@
 import styles from './style.module.css'
+import Image from 'next/image'
+
 export default function TextoPrincipal(props)
 {
     return(
@@ -16,7 +18,13 @@ export default function TextoPrincipal(props)
                 e aconselhamento aos estudantes.
                  </p>
                 <div className={styles.logo}>
-                <img src='/images/logo-pixelado-branco.png' alt="Logo" className={styles.logo}/>
+                <Image
+                    className={styles.logo}
+                    src='/images/logo-pixelado-branco.png'
+                    height={300}
+                    width={550}
+                    alt=""
+                />
                 </div>
              </div>
         </div>
