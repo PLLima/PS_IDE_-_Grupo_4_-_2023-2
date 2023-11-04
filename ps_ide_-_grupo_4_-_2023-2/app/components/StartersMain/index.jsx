@@ -31,7 +31,7 @@ export default function Starters(props){
             </imagens>
             <ide>
                 <a href="https://www.idejr.com.br/">
-                    <img src='/images/logo-pixelado-roxo.png' style= {{width: '100px', height: '59px'}}/>
+                    <img src='/images/logo-pixelado-roxo.png' style= {{width: '150px', height: '100px'}}/>
                 </a>
             </ide>
         </div>
