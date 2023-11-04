@@ -9,7 +9,6 @@ export default function StartersAgua(props) {
             <div className={styles.container}>
                 <div className={styles.textoImagem}>
                     <ParteDireita/>
-                    <ParteEsquerda/>
                 </div>
             </div>
            

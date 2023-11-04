@@ -1,4 +1,4 @@
-.container{
+.container_dir{
     display: flex;
     width: 35vw;
     height: 35vw;
@@ -7,7 +7,7 @@
     padding-top: 5%;
 }
 
-.container span{
+.container_dir span{
     display: flex;
     justify-content: left;
     color: black;

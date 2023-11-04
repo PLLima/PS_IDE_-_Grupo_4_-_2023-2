@@ -70,3 +70,51 @@
 .logos button:hover {
     transform: scale(1.1);
 }
+
+.container_dir{
+    display: flex;
+    width: 35vw;
+    height: 35vw;
+    flex-direction: column;
+    padding-left: 4%;
+    padding-top: 5%;
+}
+
+.container_dir span{
+    display: flex;
+    justify-content: left;
+    color: black;
+    font-size: 1.2vw;
+    line-height: 1.5vw;
+    font-weight: 400;
+    text-align: left;
+}
+
+.atributos {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .atributosEsquerda {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .atributosDireita {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+.fracoSE{
+    display: flex;
+}
+
+
+
+.neko{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    align-items: center;
+    padding-left: 20%;
+}
