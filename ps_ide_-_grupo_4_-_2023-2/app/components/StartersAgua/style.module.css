@@ -1,148 +1,97 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-.container{
+.wrapper {
+    width: 35vw;
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+}
+.wrapper2{
+    width: 35vw;
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2.5%;
+}
+
+.textoTipo{
+    font-size: 2.2vw;
+    line-height: 2.2vw;
+    font-weight: 400;
+    text-align: center;
+    font-family: "uni 05_53";
+    color: #FFFFFF;
+}
+.title {
+    font-size: 50px;
+    color: rgb(67, 119, 161);
+    font-family: "Press Start 2P";
+    display: flex;
+    padding-top:2%;
+    padding-left:2%;
+    padding-bottom: 3%;
+    background-color: #FFFFFF;
+}
+
+.container {
+
+    display: flex;
+    justify-content: space-evenly; 
     width: 100%;
     height: 100%;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color:white;
-    flex-direction: column;
-    font-family: 'Press Start 2P';
-    position: relative; 
+    background-color: #FFFFFF;
+
 }
 
-.container span{
-    width: 90%;
-    height: 50%;
-    border-radius: 20px;
-    border-width: 4px;
-    border-color: #603B88;
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 1vw; 
+
 }
 
-.container texto{
-    width: 45%;
-    height: 100%;
-    color: #603B88;
-    font-size: small;
-    text-align: center;
-    justify-content: right;
-    display: flex;
-    margin-left: 48%;
+.grid img {
+    width: 6vw;
+    height: 6vw;
+    display: block; 
+    border: solid 2px rgb(67, 119, 161);
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 0px;
 }
 
-.container titulo{
+.logos button{
+    margin: 0;
+    margin-left: 2.8vw; 
+    margin-top: 4vw;
+    width: 7vw;
+    height: 2.5vw;
+}
+
+.logos button:hover {
+    transform: scale(1.1);
+}
+
+.textAtributos{
+    font-size: 2.2vw;
+    line-height: 2.2vw;
     font-weight: 400;
-    font-size: xxx-large;
-    color: #603B88;
-    display: flex;
     text-align: center;
-    padding-bottom: 5%;
-    margin-top: 10%;
+    font-family: "uni 05_53";
+    color: #FFFFFF;
 }
 
-.container subtitulo{
-    width: 40%;
-    height: 100%;
-    font-size: x-large;
+.atributos{
     display: flex;
-    color: #603B88;
-    padding-left: 10%;
-}
-
-.container neko{
-    width: 40%;
-    height: 100%;
-    display: flex;
-    padding-left: 6.5%;
-    padding-top: 5%;
-    float: left;
-}
-
-.container aspascima{
-    width: 20%;
-    height: 100%;
-    display: flex;
-    margin-left: 43%;
-    padding-top: 2%;
-}
-
-.container aspasbaixo{
-    width: 10%;
-    height: 100%;
-    display: flex;
-    margin-left: 92%;
-    margin-bottom: 2%;
-    margin-top: 2%;
-}
-
-.container linha{
-    height: 53%;
-    display: flex;
-    margin-left: 41%;
-    margin-top: 17.2%;
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    width: 4px; 
-    background-color: #603B88; 
-}
-
-.container tipos{
-    width: 35.5%;
-    height: 30%;
-    font-size: large;
-    display: flex;
-    color: #603B88;
-    flex-direction: row;
     justify-content: space-between;
-    margin-top: 2%;
-    margin-right: 53%;
+    padding-right: 40%;
 }
 
-.container tipos > * {
-    flex: 1;
-    text-align: center;
-}
-
-.container imagens{
-    width: 31%;
-    height: 30%;
+.fracoSE{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-top: 2%;
-    margin-right: 53%;
-    transition: 250ms all ease-in-out;
-}
-
-.container imagens:hover{
-    transform: scale(1.1);
-    cursor: pointer;
-}
-
-.container ide{
-    width: 40%;
-    height: 100%;
-    border-radius: 20px;
-    border-width: 4px;
-    border-color: #603B88;
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    margin-left: 50%;
-    transition: 250ms all ease-in-out;
-}
-
-.container ide img {
-    max-width: 100%; 
-    max-height: 100%; 
-}
-
-.container ide:hover{
-    transform: scale(1.1);
-    cursor: pointer;
 }
