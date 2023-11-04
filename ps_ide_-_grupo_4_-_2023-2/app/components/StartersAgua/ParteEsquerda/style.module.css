@@ -2,11 +2,23 @@
 
 .title {
     font-family: "Press Start 2P";
-    color: black;
+    color: #3B6388;
     font-weight: 400;
     font-size: 4vw;
     line-height: 70px;
     padding-bottom: 5%;
+}
+
+.title.bordaAgua {
+    color: #3B6388;
+}
+
+.title.bordaPlanta {
+    color: #3B8863;
+}
+
+.title.bordaFogo {
+    color: #AD3F3F;
 }
 
 .container{
@@ -35,15 +47,15 @@
     margin: 0px;
 }
 
-.bordaAgua .grid img {
+.grid.bordaAgua img {
     border-color: #3B6388;
 }
 
-.bordaPlanta .grid img {
+.grid.bordaPlanta img {
     border-color: #3B8863;
 }
 
-.bordaFogo .grid img {
+.grid.bordaFogo img {
     border-color: #AD3F3F;
 }
 

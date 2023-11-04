@@ -38,8 +38,8 @@ export default function ParteEsquerda(props)
     return(
         <>
         <div className={styles.container}>
-                <h1 className={styles.title}>{titulo}</h1>
-                    <div className={styles.grid}>
+                <h1 className={`${styles.title} ${bordaAgua ? styles.bordaAgua : bordaPlanta ? styles.bordaPlanta : bordaFogo ? styles.bordaFogo : ''}`}>{titulo}</h1>
+                <div className={`${styles.grid} ${bordaAgua ? styles.bordaAgua : bordaPlanta ? styles.bordaPlanta : bordaFogo ? styles.bordaFogo : ''}`}>
                         <Image src={'/images/pokemons/' + elemento + '/1.png'} height={200} width={100} />
                         <Image src={'/images/pokemons/' + elemento + '/2.png'} height={200} width={100} />
                         <Image src={'/images/pokemons/' + elemento + '/3.png'} height={200} width={100} />
