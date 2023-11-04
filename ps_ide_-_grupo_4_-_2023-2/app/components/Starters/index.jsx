@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Starters(props){
     return(
         <>
-        <div className={styles.container}>
+        <div id="Starters" className={styles.container}>
             <titulo>CONHECENDO OS STARTERS</titulo>
             <span>
                 <aspascima>

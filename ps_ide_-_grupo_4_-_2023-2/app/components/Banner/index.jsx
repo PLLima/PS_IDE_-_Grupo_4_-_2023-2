@@ -2,6 +2,7 @@ import styles from './banner.module.css'
 import BannerTitle from './BannerTitle'
 import BannerButton from './BannerButton'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Banner(){
     return(
