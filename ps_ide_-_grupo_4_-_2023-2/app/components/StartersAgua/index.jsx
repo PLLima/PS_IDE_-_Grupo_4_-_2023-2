@@ -1,7 +1,7 @@
 import styles from './style.module.css';
 import Image from 'next/image';
 
-export default function Starters(props) {
+export default function StartersAgua(props) {
     return (
         <>
            <div className={styles.title}>
