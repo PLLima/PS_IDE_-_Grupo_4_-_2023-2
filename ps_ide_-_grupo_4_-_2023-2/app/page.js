@@ -10,7 +10,6 @@ export default function Home(){
     <>
       <Header/>
       <Banner/>
-      <Starters/>
       <StartersAgua/>
       <SobreNos/>
       <Forms/>
