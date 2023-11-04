@@ -1,6 +1,6 @@
 .container{
-    width: 45vw;
-    height: 45vw;
+    width: 30vw;
+    height: 30vw;
     object-fit: contain;
     display: flex;
 }

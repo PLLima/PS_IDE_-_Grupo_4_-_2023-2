@@ -1,6 +1,6 @@
 .container{
     width: 100vw;
-    height: 5vw;
+    height: 3vw;
     display: flex;
     align-items: center;
 }
@@ -10,7 +10,6 @@
     font-family: var(--font-title);
     color: #FFFFFF;
     font-weight: 400;
-    font-size: 4vw;
+    font-size: 3.5vw;
     text-shadow: 0.25vw 0.25vw black;
-    line-height: 6vw;
 }
