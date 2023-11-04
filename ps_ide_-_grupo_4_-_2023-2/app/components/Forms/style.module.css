@@ -6,8 +6,9 @@
     justify-content: center;
     width: 100%;
     flex-direction: column;
-    height: 600px;
+    height: 800px;
     gap: 10px;
+    background-color: #FFFFFF;
 }
 
 .container input

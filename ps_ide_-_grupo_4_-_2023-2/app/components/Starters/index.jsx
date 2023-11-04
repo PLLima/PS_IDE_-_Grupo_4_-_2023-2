@@ -41,6 +41,11 @@ export default function Starters(props) {
                             <Image src ='/images/tipos/Pedra.png' height={35} width={35}/>
                         </div>
                       </div>
+                      <div className={styles.textoTipo}>
+                            Água é um tipo calmo e versátil, com vantagem sobre Fogo e Terrestre. <br></br>
+                            Pokémons aquáticos são frequentemente encontrados em ambientes úmidos.<br></br>
+                      </div>
+
                 </div>
             </div>
            

@@ -15,6 +15,15 @@
     flex-direction: column;
     padding-left: 2.5%;
 }
+
+.textoTipo{
+    font-size: 2.2vw;
+    line-height: 2.2vw;
+    font-weight: 400;
+    text-align: center;
+    font-family: "uni 05_53";
+    color: #FFFFFF;
+}
 .title {
     font-size: 50px;
     color: rgb(67, 119, 161);
@@ -23,12 +32,16 @@
     padding-top:2%;
     padding-left:2%;
     padding-bottom: 3%;
+    background-color: #FFFFFF;
 }
 
 .container {
     
     display: flex;
     justify-content: space-evenly; 
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
     
 }
 
@@ -77,6 +90,7 @@
     justify-content: space-between;
     padding-right: 40%;
 }
+
 .fracoSE{
     display: flex;
     flex-direction: row;
