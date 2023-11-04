@@ -1,29 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-
 .container{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     flex-direction: column;
-    height: 600px;
-    gap: 10px;
+    height: 52vw;
+    gap: 1vw;
 }
 
 .container input
 {
     width: 80%;
-    height: 50px;
-    font-family: 'Press Start 2P';
-    padding-left: 10px;
-    font-size: 12px;
-    border: 1px solid purple;
-    caret-color: purple;
-    color: purple;
+    height: 3.75vw;
+    padding-left: 0.5vw;
+    font-size: 1vw;
+    border: 1px solid #603B88;
+    caret-color: #603B88;
+    color: #603B88;
 }
 
 .container input::placeholder {
-    color: purple;
+    color: #603B88;
 }
 
 .container input:focus {
@@ -36,33 +33,31 @@
 
 .container input:hover {
     background-color: rgb(255, 188, 255);
-    border: 2px solid purple;
+    border: 2px solid #603B88;
     cursor: pointer;
 }
 
 .container h1
 {
-    font-family: 'Press Start 2P';
-    font-size: 22px;
-    color: purple;
-    padding-bottom: 25px;
+    font-size: 2vw;
+    color: #603B88;
+    padding-bottom: 1.75vw;
     justify-content: center;
 }
 
 .container button
 {
     width: 35%;
-    border: 1px solid purple;
-    font-family: 'Press Start 2P';
-    font-size: 17px;
-    margin-top: 8px;
-    height: 50px;
-    color: purple;
+    border: 1px solid #603B88;
+    font-size: 1.5vw;
+    margin-top: 0.5vw;
+    height: 3.75vw;
+    color: #603B88;
 }
 
 .container button:hover
 {
     background-color: rgb(255, 188, 255);
-    border: 2px solid purple;
+    border: 2px solid #603B88;
     cursor: pointer;
 }
