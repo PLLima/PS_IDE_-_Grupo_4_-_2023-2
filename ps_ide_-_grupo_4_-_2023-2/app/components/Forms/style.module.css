@@ -10,13 +10,13 @@
 
 .container input
 {
+    color: black;
     width: 80%;
     height: 3.75vw;
     padding-left: 0.5vw;
     font-size: 1vw;
     border: 1px solid #603B88;
     caret-color: #603B88;
-    color: #603B88;
 }
 
 .container input::placeholder {
@@ -57,7 +57,8 @@
 
 .container button:hover
 {
-    background-color: rgb(255, 188, 255);
+    color: white;
+    background-color: #603B88;
     border: 2px solid #603B88;
     cursor: pointer;
 }

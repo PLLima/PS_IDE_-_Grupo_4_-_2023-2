@@ -55,7 +55,9 @@ export default function Forms(props){
             value = {senha}
             onChange={(e) => setSenha(e.target.value)}/>
 
-            <button onClick={handleClick}>Enviar</button>
+            <button onClick={handleClick}>
+                <span className={styles.buttonText}>Enviar</span>
+            </button>
         </div>
         </>
     );
