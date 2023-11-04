@@ -3,7 +3,7 @@ import Banner from './components/Banner'
 import SobreNos from './components/SobreNos'
 import Forms from './components/Forms'
 import Footer from './components/Footer'
-import Starters from './components/Starters'
+import StartersAgua from './components/StartersAgua'
 
 export default function Home(){
   return(
@@ -11,6 +11,7 @@ export default function Home(){
       <Header/>
       <Banner/>
       <Starters/>
+      <StartersAgua/>
       <SobreNos/>
       <Forms/>
       <Footer/>
