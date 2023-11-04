@@ -16,7 +16,9 @@ export default function Banner(){
                 />
                 <div className={styles.bannerTitleButton}>
                     <BannerTitle/>
-                    <BannerButton text="START"/>
+                    <Link href="#Starters">
+                        <BannerButton text="START"/>
+                    </Link>
                 </div>
             </div>
         </>
